@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>1.21 NightVision Tpack (Full Bright)</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0b0b0b;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      color: #00ffff;
+    }
+    p {
+      max-width: 800px;
+      margin: auto;
+      padding: 1rem;
+      line-height: 1.6;
+    }
+    .features {
+      background-color: #141414;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li::before {
+      content: "🌙";
+      margin-right: 8px;
+    }
+    .download {
+      text-align: center;
+      padding: 2rem;
+    }
+    .btn {
+      background-color: #00ffff;
+      color: black;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #00cccc;
+    }
+    #status {
+      margin-top: 1rem;
+      color: #ccc;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>1.21 NightVision Tpack (Full Bright)</h1>
+    <p>Play Minecraft 1.21 like it’s always daytime – no more torches, no more darkness.</p>
+  </header>
+
+  <section class="features">
+    <h2>🔦 Features</h2>
+    <ul>
+      <li>Full Bright (no shaders or potions needed)</li>
+      <li>FPS Boosted textures</li>
+      <li>Works perfectly in caves, nether & deep dark</li>
+      <li>Ideal for PvP, Mining & Building</li>
+      <li>Compatible with OptiFine</li>
+    </ul>
+  </section>
+
+  <div class="download">
+    <button class="btn" onclick="startCooldown()">Download Pack</button>
+    <div id="status"></div>
+  </div>
+
+  <footer>
+    © 2025 rbxrush2 | Made for Minecraft Night Explorers 🌌
+  </footer>
+
+  <script>
+    function startCooldown() {
+      let seconds = 3;
+      const status = document.getElementById('status');
+      status.innerText = `Redirecting in ${seconds}...`;
+
+      const countdown = setInterval(() => {
+        seconds--;
+        if (seconds > 0) {
+          status.innerText = `Redirecting in ${seconds}...`;
+        } else {
+          clearInterval(countdown);
+          status.innerText = 'Redirecting...';
+          window.location.href = "http://adfoc.us/872640110632689";
+        }
+      }, 1000);
+    }
+  </script>
+
+</body>
+</html>
